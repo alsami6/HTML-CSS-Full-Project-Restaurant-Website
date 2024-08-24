@@ -254,3 +254,47 @@ nav{
         border: 2px solid gray;
     }
 }
+
+
+@media(max-width:500px){
+    .left-nav {
+        font-size: 1rem;
+    }
+    .input input {
+        width: 8em;
+        margin: 0.6rem;
+    }
+
+    .findus{
+        margin: 0px;
+    }
+    .toll {
+        font-size: 10px;
+    }
+    .bottom-part {
+        height: 29%;
+    }
+    .num {
+        margin-right: 5px;
+    }
+    .nav2 ul {
+        gap: 10px;
+        padding: 5px;
+    }
+    .nav2 ul li a {
+        font-size: 0.85rem;
+    }
+    .sspan{
+        text-align: center;
+        width: 600;
+        font-size: 1rem;
+    }
+    .mainbox {
+        height: 80%;
+    }
+    .find button {
+        font-weight: 600;
+        font-size: 7px;
+        text-align: center;
+    }
+}
